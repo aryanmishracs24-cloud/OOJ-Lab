@@ -3,7 +3,6 @@ class Addition {
         return a + b;
     }
 }
-import mypackage.Addition;
 public class MainClass {
     public static void main(String[] args) {
         Addition obj = new Addition();  // create object of Addition class
