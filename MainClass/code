@@ -1,0 +1,13 @@
+class Addition {
+    public int add(int a, int b) {
+        return a + b;
+    }
+}
+import mypackage.Addition;
+public class MainClass {
+    public static void main(String[] args) {
+        Addition obj = new Addition();  // create object of Addition class
+        int result = obj.add(10, 20);   // call add() method
+        System.out.println("Sum of two numbers: " + result);
+    }
+}
